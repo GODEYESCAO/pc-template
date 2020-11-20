@@ -1,0 +1,613 @@
+
+.topHeader{
+    .el-input--medium {
+        width: 250px;
+        .el-input__inner{
+            border-radius: 87px;
+        }
+        i {
+            cursor pointer 
+        }
+    }
+}
+.client_slide { //首页轮播图
+    .el-carousel__arrow--left{
+        left: 267px;
+    }   
+    .el-carousel__arrow--right{
+        right: 33px;
+    }
+    .el-carousel__indicators{
+        left:59%;
+    }
+    img{
+        width: 100%;
+        height: 460px;
+    }
+}
+
+.subject {
+    .subject_info{
+        .el-button{
+            padding: 11px 30px
+            span{
+                display: flex;
+                align-items: center;
+                svg{
+                    margin-right: 5px
+                }
+            }
+        }
+    }
+}
+//修改的tabs样式
+.el-tabs .el-tabs__nav .el-tabs__item{
+    font-size: 14px;
+    color #585858
+    &:hover{
+        color $red
+    }
+    &:active{
+        color $red
+    }
+}
+.el-tabs__active-bar{
+    background-color: $red !important;
+}
+.el-tabs .el-tabs__nav{
+    height: 49px;
+    line-height: 49px;
+    margin-left: 20px
+}
+.el-tabs__item.is-active{
+    color $red!important
+    font-weight: 700
+}
+.el-tabs .el-tab-pane{
+    height: 100%;
+}
+.el-tabs__header{
+    margin: 0; 
+}
+.el-tabs__item{
+    font-weight: 700;
+}
+.client_salemanagement{
+    .goods_list{
+        .goods-right-item{
+            width: 210px !important;
+            margin: 0 20px 20px 0;
+        }
+    }
+}
+
+.MyAccount{
+    .el-progress{
+        width 120px
+    }
+} 
+.accountBalance .main_content .el-tabs{
+    .el-tabs__nav .el-tabs__item{
+        font-size: 14px;
+        color #585858
+        &:hover{
+            color $red
+        }
+        &:active{
+            color $red
+            color:$red;
+        }
+        &:active{
+            color:$red;
+        }
+    }
+    .el-tabs__active-bar{
+        background-color: $red !important;
+    }
+    .el-tabs .el-tabs__nav{
+        height: 32px;
+        line-height: 32px;
+    }
+    .el-tabs__item.is-active{
+        color $red!important
+        color:$red!important;
+        font-weight: 700;
+    }
+    .el-tabs .el-tab-pane{
+        height: 100%;
+    }
+    .el-tabs__header{
+        margin: 0; 
+    }
+    .el-tabs__item{
+        font-weight: 700;
+    }
+}
+
+.recharge {
+    .truetabs .el-tabs__header{
+        display: block;
+    }
+    .el-tabs__header{
+        display:none;
+    }
+    .el-form-item--small .el-form-item__content, .el-form-item--small .el-form-item__label{
+        font-weight: normal;
+        font-size: 12px;
+    }
+    form{
+        margin-top: 15px;
+        width:500px;
+    }
+} 
+.el-form-item__label{
+    font-size: 12px;
+    color: #606266;
+    font-weight: normal;
+}
+.el-form-item--small .el-form-item__content, .el-form-item--small .el-form-item__label{
+    line-height: 20px;
+}
+.permissionSetting{
+    .el-checkbox{
+        font-weight: 500;
+    }
+    .td2{
+        .el-checkbox {
+            margin-right: 60px;
+            margin-left: 0;
+            line-height: 35px;
+        }
+    }
+    .el-checkbox:nth-child(7n){
+        margin-left: 0px;
+    }
+    .el-checkbox__label{
+        font-size: 14px;
+    }
+    .el-checkbox__input.is-checked+.el-checkbox__label{
+        font-size: 14px;
+    }
+}
+
+.goodsDetail{
+    .el-tabs-border-card{
+        -webkit-box-shadow: none; 
+        box-shadow: none; 
+        border: none;
+        .el-tabs__content{
+            padding:25px;
+        }
+        .el-tabs__header{
+          background: #f7f7f7;  
+        }
+        .el-tabs__item{
+            line-height: 57px;
+            height: 57px;
+            width: 149px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: normal;
+            border-top: 3px solid transparent;
+        }
+        .el-tabs__item.is-active{
+            background-color: #fff;
+            border-right-color: #dcdfe6;
+            border-left-color: #dcdfe6;
+            border-top: 3px solid $red;
+        }
+        .el-tabs__nav {
+            height: 56px;
+            line-height: 57px;
+            margin-left: 0px;
+        }
+    }
+}
+
+.issuelist{
+    .search_input{
+        .el-input--small .el-input__inner {
+            line-height: 42px;
+            height: 42px;
+            border-radius: 0px;
+            border-color: #F04844;
+        }
+        .el-input.is-active .el-input__inner, .el-input__inner:focus {
+            border-color: #F04844;
+            outline: 0;
+        }
+        .el-input-group__append, .el-input-group__prepend{
+            padding: 0 18px;
+        }
+        .el-button{
+            background: #F04844;
+            color: #fff;
+            line-height: 24px;
+            width: 66px;
+            font-size: 18px;
+        }
+    }
+    .issuelist_content{
+        .el-collapse-item__header{
+            border-bottom: none;
+            font-size: 12px;
+            padding-left: 15px;
+        }
+        .el-collapse-item__content{
+            padding:5px 20px 10px 34px;
+            >div{
+                line-height: 25px;
+                height: 25px;
+                color: #767676;
+            }
+        }
+        .el-collapse-item__wrap{
+            border-bottom: none;
+        }
+    }
+   
+    
+}
+
+
+//
+.login_view{
+    .el-input--small .el-input__inner {
+        height: 41px;
+        line-height: 41px;
+    }
+    .el-input{
+        input:-webkit-autofill {
+            -webkit-text-fill-color: #333 !important;
+            transition: background-color 5000s ease-in-out 0s;
+        }
+    }
+    .tsinput{
+        height 20px
+        .el-input--small .el-input__inner{
+            height: 20px!important;
+            line-height: 20px!important;
+        } 
+    }
+}
+// 正常
+.register{
+    .el-input--small .el-input__inner {
+        width: 412px;
+        height: 41px;
+        line-height: 41px;
+    }
+    .el-form-item__content{
+        margin-left: 0!important;
+    }
+    .code{
+        width: 291px;
+        .el-input__inner {
+            width: 291px;
+        }
+    }
+}
+
+
+.losePassword,.myorderDetail,.applyDetail,.applyProject,.ReplacePhone{
+    .el-step__head.is-finish{
+        color: $red;
+        border-color: $red;
+    }
+    .el-step__title.is-finish{
+        color: $red;
+        font-size: 14px
+    }
+    .el-step__head.is-process,.is-wait{
+        color: #585858;
+        border-color: #585858;
+    }
+    .el-step__title.is-process,.is-wait{
+        color: #585858;
+        font-size: 14px
+        font-weight: normal
+    }
+    .el-step__title.is-wait{
+        color: #c0c4cc;
+        font-size: 14px;
+    }
+    .el-step__description.is-finish,.is-process,.is-wait{
+        color:#585858;
+    }
+}
+
+.popExpressCheck{
+    .el-step{
+        min-height: 60px;
+    }
+    .el-step__head.is-process,.el-step__head.is-finish,.el-step__head.is-wait{
+        color: $gray;
+        border-color: $gray;
+        font-weight: normal 
+    }
+    .el-step__title.is-finish,.el-step__title.is-process,.el-step__title.is-wait{
+        color: #333;
+        border-color: $gray;
+        font-size: 14px
+        font-weight: normal
+    }
+    .el-step__description.is-finish,.el-step__description.is-process,.el-step__description.is-wait{
+        color: $gray;
+    }
+}
+.myFavorite{
+    .pushSolution{
+        .el-table{
+            .el-button--mini, .el-button--mini.is-round{
+                padding: 5px 15px;
+            }
+        }
+    }
+}
+
+.applyProject{
+    .el-form-item--mini.el-form-item, .el-form-item--small.el-form-item {
+        margin-bottom: 14px;
+    }
+}
+
+.statementAccount{
+    .el-popover{
+       padding 17px 25px 23px 
+    }
+    .unpaid_list{
+        font-size 12px
+        padding 17px 25px 23px
+        li{
+            margin-bottom 12px
+            color #767676
+            span{
+                color #A2A2A2
+            }
+        }
+    }      
+}
+
+.BulkOrder{
+    .el-upload-dragger{
+        width: 563px;
+        border: none; 
+    }
+}
+
+.topHeader{
+    .el-input--small .el-input__inner{
+        border-radius: 82px !important
+    }
+}
+
+.impowerBox{
+    background: #333;
+    margin-top: 50px;
+}
+
+#topbar {
+    .el-carousel__container{
+        width 400px
+    }
+    .el-carousel__item h3 {
+        padding-left 15px
+        color: #475669;
+        font-size: 12px;
+        opacity: 0.75;
+        line-height: 40px;
+        margin: 0;
+        width 400px
+        font-weight: normal;
+    }
+    .el-carousel__arrow i {
+        cursor: pointer;
+        display: none;
+    }
+}
+
+
+.client_myorder{
+    .search_list >div >div{
+        margin-right: 0;
+    }
+    .search_list{
+        height 67px
+        >div:first-child{
+            .el-input{
+                margin-right 16px
+            }
+        }
+        >div:last-child{
+            .merge{
+                margin-right 16px
+            }
+        }
+    }
+}
+.login_view{
+    .el-form-item--small .el-form-item__error {
+        padding-top: 5px;
+        padding-left: 37px;
+    }
+}
+
+.goodsDetail {
+    .el-collapse{
+        border-top: none;
+        border-bottom: none;
+    }
+    .el-collapse-item__header{
+        height: 24px; 
+        line-height: 24px; 
+        font-size: 12px
+        border-bottom: none;
+    }
+    .el-collapse-item__content{
+        font-size: 12px
+        padding-bottom: 0px;
+    }
+    .el-collapse-item__wrap{
+       border-bottom: none; 
+       margin-top 10px
+    }
+    .el-collapse-item__arrow{
+        height: 24px; 
+        line-height: 24px; 
+    }
+}
+
+.pop{
+    .el-date-editor.el-input, .el-date-editor.el-input__inner{
+        width 100%
+    }
+}
+
+.orderTable{
+    .el-button+.el-button {
+        margin-left: 0px;
+    }
+}
+
+.tableComponents{
+    .el-button+.el-button {
+        margin-left: 0;
+    }
+}
+
+.notificationsDetail{
+    .mt_25{
+        img{
+            width 100%
+        }
+    }
+}
+
+.goods_Detail{
+    img{
+        width 97%
+    }
+    .el-tabs .el-tab-pane{
+        padding 15px
+    }
+}
+
+.el-badge__content{
+    border :none !important
+}
+
+.login_view{
+    .newpros{
+        position: absolute;
+        right: -17px;
+        top: -7px;
+    }
+}
+.cusSiderbar{
+    .newpros{
+        position: absolute;
+        right: 50px;
+        top: 5px;
+    }  
+}
+.register{
+   .el-form-item--medium .el-form-item__content, .el-form-item--medium .el-form-item__label {
+    line-height: 29px;
+  } 
+}
+
+.issuelist{
+    .markdown-body{
+        z-index 1
+    }
+}
+
+.detail_carts{
+    .el-tabs .el-tabs__nav{
+        margin-left: 0px;
+    }
+}
+
+
+.newSeacher{
+    .el-input__inner{
+      height: 42px !important;
+      border-radius: 0px;
+      border: solid 2px #f14845;
+    }
+}
+
+.NewProducts{
+    .el-carousel__button{
+        background-color: #7f7f7f;
+    }
+}
+.MyAccount{
+    .el-upload--picture-card{
+        width 96px
+        height 96px
+        border none
+    }
+}
+
+.goodsCollect{
+    .el-tabs__nav .el-tabs__item{
+        font-size: 16px;
+        width 120px
+        text-align center
+        background #ffffff
+        color #666666;
+        &:hover{
+            color #ff6455
+        }
+        &:active{
+            color #ff6455
+            color:#ff6455;
+        }
+        &:active{
+            color:#ff6455;
+        }
+    }
+    .el-tabs__active-bar{
+        background-color: #ff7f7c !important;
+    }
+    .el-tabs .el-tabs__nav{
+        height: 44px;
+        line-height: 44px;
+        margin-left: 0px
+    }
+    .el-tabs__item.is-active{
+        color#ff6455!important
+        font-weight: 700;
+    }
+    .el-tabs .el-tab-pane{
+        height: 100%;
+    }
+    .el-tabs__header{
+        margin: 0; 
+    }
+    .el-tabs__item{
+        font-weight: 700;
+    }
+}
+
+.payHeader{
+    .el-divider--vertical{
+        height: 2em;
+    }
+}
+.newHeader{
+    .el-divider{
+        background-color: #afafaf;
+    }
+    .newHeader_right{
+        .el-divider{
+            margin: 0;
+        }  
+    }
+}
+.goods_Details{
+    dir, menu, p, ul{
+        line-height: 0;
+    }
+}
